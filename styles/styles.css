@@ -1,0 +1,88 @@
+.body{
+    width: 1400px;
+    margin: 0 auto;
+    letter-spacing: -0.03em;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+}
+.introduce {
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 765px;
+    background-size: contain;
+    background-image: url('../resourses/welcome.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'IBM Plex Mono';
+    letter-spacing: -0.03em;
+}
+.main {
+    width: 1150px;
+    margin: 0 auto;
+    background: #000000;
+}
+h1 {
+    position: absolute;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+    width: 919px;
+    bottom: 94px;
+    left:119px;
+    letter-spacing: -0.03em;
+}
+.aboutme{
+    position: absolute;
+    width: 430px;
+    top: 334px;
+    left: 125px;
+    letter-spacing: -0.03em;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.nav_logo{
+    box-sizing: border-box;
+    border: solid #000000 1px;
+    position: absolute;
+width: 130px;
+height: 39px;
+left: 123px;
+top: 36px;
+background: #000000;
+border-radius: 100px;
+}
+.logo{
+    position: absolute;
+    left: 8px;
+    top: -9px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    color: #1BFF07;
+    
+}
+.nav_container{
+    margin-right: 76px;
+}
+.nav_link{
+    font-size: 18px;
+line-height: 23px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.nav li{
+    margin-top: 33px;
+    float: right;
+}
+.nav_link:hover{
+    color: #1BFF07;
+}
