@@ -89,6 +89,10 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
 }
 
 /* HTML5 display-role reset for older browsers */
