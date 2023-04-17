@@ -7,6 +7,14 @@
 font-style: normal;
 font-weight: 400;
 }
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: -0.03em; 
+}
 .introduce {
     width: 1400px;
     margin: 0 auto;
@@ -17,12 +25,7 @@ font-weight: 400;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     font-family: 'IBM Plex Mono';
-    letter-spacing: -0.03em;
-}
-.main {
-    width: 1150px;
-    margin: 0 auto;
-    background: #000000;
+    
 }
 h1 {
     position: absolute;
@@ -30,16 +33,14 @@ h1 {
     line-height: 70px;
     color: #1BFF07;
     width: 919px;
-    bottom: 94px;
+    bottom: 90px;
     left:119px;
-    letter-spacing: -0.03em;
-}
+ }
 .aboutme{
     position: absolute;
     width: 430px;
     top: 334px;
     left: 125px;
-    letter-spacing: -0.03em;
     font-size: 20px;
     line-height: 26px;
     color: #FFFFFF;
@@ -68,21 +69,206 @@ border-radius: 100px;
     
 }
 .nav_container{
-    margin-right: 76px;
+    margin-top: 33px;
+    margin-right: 125px;
+        float: right;
 }
 .nav_link{
     font-size: 18px;
 line-height: 23px;
-letter-spacing: -0.03em;
 color: #FFFFFF;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 42px;
+}
+.nav_link:nth-last-child(1){
+    margin-right: 0px;
 }
 
-.nav li{
-    margin-top: 33px;
-    float: right;
-}
 .nav_link:hover{
     color: #1BFF07;
 }
+.main{
+    background-color: #000000;
+    width: 1400px;
+    margin: 0 auto;
+}
+h2{
+margin-bottom: 40px;
+font-size: 54px;
+line-height: 72px; 
+color: #FFFFFF
+}
+.main_part{
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 150px;
+    border-radius: 30px;
+  }
+.projects, .competencies, .services, .contacts{
+    margin-bottom: 148px;  
+}
+.project_list{
+    margin-bottom: 80px;
+    color: #FFFFFF;
+}
+.project_example{
+    position: relative;
+    height: 550px;
+}
+h3 {
+    position: absolute;
+    left: 50px;
+    bottom:94px;
+    font-size: 35px;
+line-height: 46px;
+
+}
+.project_descr{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+line-height: 39px; 
+}
+.full_list{
+    display:block;
+    width: 582px;
+    border: 1px solid #1BFF07;
+    border-radius: 10px;
+    padding: 56px;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    background: #1BFF07;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.full_list:hover {
+    background: #000000;
+    border: 1px solid #1BFF07;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #1BFF07;
+    text-decoration: none;
+}
+h4{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 35px;
+line-height: 46px;
+color: #1BFF07;
+
+}
+.competencies_descr {
+margin-bottom: 59px;
+width: 778px;
+font-size: 22px;
+line-height: 29px;
+color: #FFFFFF;
+
+}
+.last{
+    margin-bottom: 0;
+}
+.service_caption{
+    margin-bottom: 74px;
+    width: 403px;
+    font-size: 35px;
+line-height: 46px;
+color: #FFFFFF;
+}
+.service_each{
+    margin-bottom: 74px;
+}
+.service_each:nth-last-child(1){
+    margin-top: 134px;
+    margin-bottom: 0;
+}
+.service_example{
+    height: 283px;
+    background: #191C19;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.service_title{
+    font-size: 55px;
+line-height: 72px;
+color: #1BFF07;
+
+    
+}
+
+.service_descr{
+    margin-top: 15px;
+    width: 724px;
+height: 116px;
+font-size: 22px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.contact_container{
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.contact_image{
+    position: absolute;
+    left: 673px;
+}
+.contact_title{
+    position: absolute;
+left: 125px;
+top: 320px;
+font-size: 35px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.contact_list{
+    position: absolute;
+    left: 125px;
+    top: 408px;
+   
+}
+.contact_element{
+    margin-bottom: 20px;
+}
+.contact_unit{
+        font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer{
+    width: 1400px;
+    margin: 0 auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #FFFFFF;
+}
+.footer_container{
+    padding-left: 125px;
+    padding-top: 76px;
+}
+.footer_name{
+    margin-bottom: 66px;
+    font-family: 'Manrope';
+    font-size: 22px;
+line-height: 30px;
+color: #000000;
+}
+.rights{
+    margin-bottom: 24px;
+    font-family: 'Manrope';
+    font-size: 20px;
+line-height: 27px;
+color: #000000;
+opacity: 0.5;
+}
+var
